@@ -1,0 +1,6 @@
+/src/libs/TimeSpanConverter/obj/*
+/src/tests/TimeSpanConverter.UnitTests/bin*
+/src/tests/TimeSpanConverter.UnitTests/obj/*
+/src/solutions/.vs/TimespanConverter/*
+/src/libs/TimeSpanConverter/bin/Debug/*
+/src/solutions/TimespanConverter.sln.DotSettings.user
