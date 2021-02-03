@@ -28,5 +28,12 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '3.1.x'
-      - run: dotnet build /libs/TimeSpanConverter
-      - run: dotnet test /tests/TimeSpanConverter.UnitTests
+      - name: Install dependencies
+        run: dotnet restore
+        working-directory: src/libs/TimeSpanConverter
+      - name: Bulid Project
+        run: dotnet build
+        working-directory: src/libs/TimeSpanConverter
+      - name: Bulid Project
+        run: dotnet test
+        working-directory: src/tests/TimeSpanConverter.UnitTests          
