@@ -34,6 +34,6 @@ jobs:
       - name: Bulid Project
         run: dotnet build
         working-directory: src/libs/TimeSpanConverter
-      - name: Bulid Project
+      - name: Test Project
         run: dotnet test
         working-directory: src/tests/TimeSpanConverter.UnitTests          
