@@ -28,5 +28,5 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '3.1.x'
-      - run: dotnet build TimeSpanConverter
-      - run: dotnet test TimeSpanConverter.UnitTests
+      - run: dotnet build /libs/TimeSpanConverter
+      - run: dotnet test /tests/TimeSpanConverter.UnitTests
